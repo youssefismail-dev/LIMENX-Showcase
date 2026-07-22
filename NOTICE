@@ -1,0 +1,65 @@
+LIMENX — PROPRIETARY SOFTWARE NOTICE
+====================================
+
+© 2026 Youssef Ismail. All rights reserved.
+LIMENX is proprietary software.
+
+
+1. NATURE OF THIS REPOSITORY
+----------------------------
+This repository is a curated ENGINEERING SHOWCASE, published for portfolio and
+technical-review purposes only. It is NOT the full production implementation of
+LIMENX, and it is NOT open-source software.
+
+No open-source license is granted. The absence of a LICENSE file is deliberate:
+all rights are reserved by the copyright holder.
+
+
+2. WHAT YOU MAY DO
+------------------
+  - Read, review, and evaluate this source code for the purpose of assessing
+    the author's engineering work (e.g. hiring, technical review, discussion).
+  - Reference or quote small excerpts with clear attribution to the author.
+
+
+3. WHAT YOU MAY NOT DO
+----------------------
+Without prior written permission from the copyright holder, you may NOT:
+  - copy, reuse, or incorporate this code (in whole or in part) into any other
+    project, product, or service, commercial or non-commercial;
+  - redistribute, republish, mirror, or sublicense this code;
+  - create derivative works based on this code;
+  - use this code, or any part of it, to train or fine-tune machine-learning
+    models.
+
+
+4. NOT INCLUDED IN THIS REPOSITORY
+----------------------------------
+The commercially sensitive components of LIMENX are withheld and remain
+private, including but not limited to:
+  - the offline feature-extraction engine and its feature definitions;
+  - the trained models (Random Forest, CatBoost, Character CNN, Character
+    Transformer) and all model artifacts and weights;
+  - the ensemble fusion and probability calibration;
+  - the SHAP-based explanation engine;
+  - the training, evaluation, and data pipelines, and all datasets.
+
+The scoring engine included here (`engine/`) is a documented REFERENCE
+implementation written solely so that the published layers run end-to-end. It
+is NOT the production detector and must not be relied upon to identify
+phishing.
+
+
+5. NO WARRANTY
+--------------
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT
+OF, OR IN CONNECTION WITH THIS SOFTWARE OR ITS USE.
+
+
+6. CONTACT
+----------
+For licensing, commercial enquiries, or permission requests:
+Youssef Ismail — youssefismail396@gmail.com

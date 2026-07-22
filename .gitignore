@@ -1,0 +1,33 @@
+# ─── Secrets ────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+**/api_keys*.json
+
+# ─── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+
+# ─── Node / Next.js ─────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.vercel/
+
+# ─── Logs / temp ────────────────────────────────────────────────────────
+*.log
+tmp/
+
+# ─── OS / editor ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
