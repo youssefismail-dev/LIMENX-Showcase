@@ -12,6 +12,8 @@
 ![Tests](https://img.shields.io/badge/tests-70%20passing-3fb950)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
+### 🌐 [**Try the live demo →**](https://limnex.vercel.app)
+
 </div>
 
 > ### ⚠️ This repository is an engineering showcase, not the full production implementation.
@@ -23,6 +25,9 @@
 > same interface**, so everything here runs end-to-end.
 >
 > **This is not a phishing detector.** It is a demonstration of how one is engineered.
+> The **[live demo](https://limnex.vercel.app)** runs the *real* production engine (the trained
+> models); the code in *this* repo uses the reference engine so it can run publicly without
+> exposing the IP.
 
 ---
 
